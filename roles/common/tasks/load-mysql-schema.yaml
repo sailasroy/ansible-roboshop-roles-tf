@@ -1,0 +1,7 @@
+- name: install mysql clinet
+  ansible.builtin.yum:
+    name: mysql
+    state: installed
+
+- name: loading the schema
+  ansible.builtin.shell: mysql -h mysql.sailasdevops.online -uroot -pRoboShop@1 < /app/schema/{{component}}.sql

@@ -1,0 +1,5 @@
+CATALOGUE_HOSTS: catalogue.sailasdevops.online
+USER_HOSTS: user.sailasdevops.online
+CART_HOSTS: cart.sailasdevops.online
+SHIPPING_HOSTS: shipping.sailasdevops.online
+PAYMENT_HOSTS: payment.sailasdevops.online
